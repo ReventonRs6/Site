@@ -150,20 +150,7 @@ line-height: 36px;
 
 color: #404149;
 }
-.container span{
-    font-family: 'Oswald';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 53px;
-text-align: center;
-text-transform: uppercase;
 
-/* Dark */
-
-color: #404149;
-
-}
 .jpg p{
     font-size: small;
 }
@@ -296,6 +283,135 @@ padding-top: 100px;
 }
 .skarner img{
     padding-bottom: 107px;
+}
+.reviews h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.25em;
+  line-height: 53px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-top: 150px;
+  padding-bottom: 64px;
+}
+
+.reviews-comm {
+  background: #F7F7F7;
+}
+
+.reviews-comm h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6em;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #F7654A;
+  text-align: left;
+  padding-left: 28px;
+  padding-top: 50px;
+}
+
+.reviews-comm p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 21px;
+  color: #999999;
+  text-align: left;
+  padding-bottom: 38px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-transform: lowercase;
+}
+
+.reviews-comm p span {
+  text-transform: capitalize;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0 30px;
+  padding-bottom: 30px;
+}
+
+.reviews h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3125em;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  text-transform: capitalize;
+  padding-top: 30px;
+  padding-bottom: 120px;
+}
+
+.reviews h4 span {
+  color: #F7654A;
+}
+.reviews{
+    padding-bottom: 150px;
+}
+.con_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 27px 30px;
+}
+.contacts{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.contacts h2{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+/* gray */
+
+color: #999999;
+}
+.contacts p{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+}
+.con_email p{
+    color: #F7654A;
+
+}
+.footer{
+    background-color: #404149;
+}
+.footer p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: right;
+
+/* White */
+
+color: #FFFFFF;
+text-transform:none;
+}
+.flexy{
+    display: flex;
+    justify-content: space-between;
+    height: 82px;
+    align-items: center;
 }
 /*------------------------------------------ 
 Responsive Grid Media Queries - 1280, 1024, 768, 
