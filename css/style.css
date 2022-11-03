@@ -19,9 +19,22 @@ body{
 
 }
 .container{
-    border: 3px solid blue;
     max-width: 1095px;
     margin: 0 auto;
+}
+.tat h2{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+text-transform: uppercase;
+
+/* Dark */
+
+color: #404149;
+padding-bottom: 60px;
 }
 .button{
     border: none;
@@ -84,6 +97,9 @@ padding-top: 20px;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 0px 30px;
     transform: translate(0px, -125px);
+}
+.glass{
+    background-color: #F7F7F7;
 }
 .yeet span{
     display: block;
@@ -352,7 +368,7 @@ padding-top: 100px;
   color: #F7654A;
 }
 .reviews{
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 .con_container{
     display: grid;
@@ -412,6 +428,17 @@ text-transform:none;
     justify-content: space-between;
     height: 82px;
     align-items: center;
+}
+.contacts h1{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #000000;
+padding-bottom: 60px;
 }
 /*------------------------------------------ 
 Responsive Grid Media Queries - 1280, 1024, 768, 
